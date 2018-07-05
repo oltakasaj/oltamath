@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+	<title>index</title>
+	<style>
+		html {
+			height:100%;
+		}
+		body {
+			margin:0;
+			height:100%;
+		}
+	</style>
+	<!-- copy these lines to your document head: -->
+
+	<meta name="viewport" content="user-scalable=yes, width=1920" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin' rel='stylesheet' type='text/css'>
+	<style>
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('index.hyperesources/playfairdisplay-regular-webfont.eot');
+    src: url('index.hyperesources/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('index.hyperesources/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('index.hyperesources/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('index.hyperesources/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('index.hyperesources/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+</style>
+	<style>
+@font-face {
+    font-family: 'mrs_saint_delafieldregular';
+    src: url('index.hyperesources/mrssaintdelafield-regular-webfont.eot');
+    src: url('index.hyperesources/mrssaintdelafield-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('index.hyperesources/mrssaintdelafield-regular-webfont.woff2') format('woff2'),
+         url('index.hyperesources/mrssaintdelafield-regular-webfont.woff') format('woff'),
+         url('index.hyperesources/mrssaintdelafield-regular-webfont.ttf') format('truetype'),
+         url('index.hyperesources/mrssaintdelafield-regular-webfont.svg#mrs_saint_delafieldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+</style>
+
+	<script type="text/javascript" src="index.hyperesources/jquery-1.11.0.js"></script>
+								
+   
+ 
+  <script type="text/javascript">
+
+  function myCallback(hypeDocument, element, event) {
+    if (isScalePossible()){
+      window.myHypeContainerId = hypeDocument.documentId();
+      $('#' + window.myHypeContainerId).css({
+        '-moz-transform-origin': '0% 0%',
+        '-webkit-transform-origin': '0% 0%',
+        '-ms-transform-origin': '0% 0%',
+        '-o-transform-origin': '0% 0%',					
+        'transform-origin': '0% 0%',
+        margin: 0
+      });
+
+      scaleSite();
+      $(window).resize(scaleSite);
+    }
+    return true;
+  }
+
+  if("HYPE_eventListeners" in window === false) {
+    window.HYPE_eventListeners = Array();
+  }
+  window.HYPE_eventListeners.push({"type":"HypeDocumentLoad", "callback":myCallback});
+
+
+  function scaleSite()
+  {
+  	var hypeContainer = $('#' + window.myHypeContainerId);
+    var containerWidth = hypeContainer.width();
+    var containerHeight = hypeContainer.height();
+    var parentWidth = hypeContainer.parent().width();
+    var parentHeight = hypeContainer.parent().height();
+    var scaleWidth = parentWidth / containerWidth;
+    var scaleHeight = parentHeight / containerHeight;
+    //var scale = Math.min(scaleWidth, scaleHeight);
+    var scale = scaleWidth;
+    var left = (containerWidth * scale < parentWidth) ? ((parentWidth - (containerWidth * scale)) / 2) + 'px' : '0px';
+    var top = (containerHeight * scale < parentHeight) ? ((parentHeight - (containerHeight * scale)) / 2) + 'px' : '0px' ;
+    hypeContainer.css({
+        "-moz-transform"    : "scale("+scale+")",
+        "-webkit-transform" : "scale("+scale+")",
+        "-ms-transform"     : "scale("+scale+")",
+        "-o-transform"      : "scale("+scale+")",
+        "transform"         : "scale("+scale+")",
+        "left" : left,
+        "top" : top
+    });
+  }
+
+  function isScalePossible() 
+  {
+    can = 'MozTransform' in document.body.style;
+    if(!can) can = 'webkitTransform' in document.body.style;
+    if(!can) can = 'msTransform' in document.body.style;
+    if(!can) can = 'OTransform' in document.body.style;
+    if(!can) can = 'transform' in document.body.style;
+    if(!can) can = 'Transform' in document.body.style;
+    return can;
+  }
+
+</script>
+ 	
+		
+		
+	
+	
+			
+ 	
+		
+		
+	
+	
+			
+ 	
+		
+		
+	
+	
+	
+ 	
+		
+		
+	
+	
+	
+
+	<!-- end copy -->
+  </head>
+  <body>
+	<!-- copy these lines to your document: -->
+
+	<div id="index_hype_container" style="margin:auto;position:relative;width:1920px;height:1080px;overflow:hidden;">
+		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?45488"></script>
+	</div>
+
+	<!-- end copy -->
+	
+
+
+	<!-- text content for search engines: -->
+
+	<div style="display:none" aria-hidden=true>
+
+		<div>Le equazioni di secondo grado </div>
+		<div></div>
+		<div>Equazione</div>
+		<div>∆ > 0</div>
+		<div>∆ < 0</div>
+		<div>Due soluzioni reali
+e distinte</div>
+		<div>∆ = 0</div>
+		<div>Teoria
+</div>
+		<div>Il numero di soluzioni varia in funzione del segno di ∆.</div>
+		<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+		<div>Due soluzioni reali
+e coincidenti x1=x2</div>
+		<div>Definizione</div>
+		<div>Il discriminante dell’equazione completa è</div>
+		<div>La teoria in pillole - 1
+EndFragment</div>
+		<div>Non esistono soluzioni reali</div>
+		<div>Nella sua forma normale, l’espressione di un’equazione completa di secondo grado è:
+</div>
+		<div>Equazioni incomplete</div>
+		<div>Tipo </div>
+		<div> equazione pura</div>
+		<div>equazione spuria</div>
+		<div>equazione monomia</div>
+		<div>Soluzioni </div>
+		<div>Segno di ∆</div>
+		<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+		<div>Soluzioni</div>
+		<div>Equazioni complete</div>
+		<div>Nell’espressione:</div>
+		<div>Quiz 3</div>
+		<div>∆ ≥ 0 e le soluzioni sono x1=-1 e x2=0</div>
+		<div>C</div>
+		<div>Quiz 2</div>
+		<div>Quiz 4</div>
+		<div>qual affermazione è vera?</div>
+		<div>QUIZ
+</div>
+		<div>entrambe le risposte sono errate</div>
+		<div>A</div>
+		<div>B</div>
+		<div>Quiz 1</div>
+		<div>∆ > 0 e le soluzioni sono x1=-2 e x2=0</div>
+		<div>Quiz 2</div>
+		<div>Quiz 3</div>
+		<div>Quiz 4</div>
+		<div>a>0 e c<0 o a<0 e c>0</div>
+		<div>a=c</div>
+		<div>a>0 e c>0</div>
+		<div>Considera l’equazione disecondo grado:</div>
+		<div>se a, c ≠ 0.</div>
+		<div>Questa equazione ha due soluzioni se:</div>
+		<div>se a≠0 vale la seguente uguaglianza:</div>
+		<div>Per il polinomio di secondo grado:</div>
+		<div>può essere risolta applicando la formula ridotta:</div>
+		<div>Resultati</div>
+		<div>Quando il coefficiente di x è pari, l’equazione:</div>
+		<div>Risposta</div>
+		<div>Applicando la formula risolutrice</div>
+		<div>Risolvi l’equazione svolgendo tutti i passaggi</div>
+		<div>Esercizo 1</div>
+		<div>Esercizo 3</div>
+		<div>ESERCIZI</div>
+		<div>avremo</div>
+		<div>Esercizo 2</div>
+		<div>l’equazione non ammette soluzioni reali</div>
+		<div>1.</div>
+		<div>2.</div>
+		<div>Risposta </div>
+		<div>Risposta 2 </div>
+		<div>Trova i valori di k per i quali l’equazione</div>
+		<div>3.</div>
+		<div>ha</div>
+		<div>Risposta 1 </div>
+		<div>2 radici reali e distinte</div>
+		<div>Risposta 3 </div>
+		<div>Ponendo a=3, b=2 e c=k,
+calcoliamo il discriminante dell’equazione:</div>
+		<div>non ha radici reali</div>
+		<div>2 radici reali e coincidenti</div>
+		<div>Intro</div>
+		<div>Esercizi</div>
+		<div>
+</div>
+		<div>MENU</div>
+		<div>Quiz</div>
+		<div>Domande in totale :</div>
+		<div>4</div>
+		<div>Corretto:</div>
+		<div> </div>
+
+	</div>
+
+	<!-- end text content: -->
+
+  </body>
+</html>
